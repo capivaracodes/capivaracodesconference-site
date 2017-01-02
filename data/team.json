@@ -1,51 +1,36 @@
-[
-  {
+[{
     "title": "Core Team",
-    "members": [
-      {
-        "name": "Bruno Scrok Brunoro",
-        "photoUrl": "/images/people/bruno.jpg",
-        "socials": [
-          {
-            "icon": "gplus",
-            "link": "https://plus.google.com/+BrunoScrokBrunoro",
-            "name": "Google+"
-          },
-          {
-            "icon": "facebook",
-            "link": "https://www.facebook.com/brunosbrunoro",
-            "name": "Facebook"
-          },
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/brunosbrunoro",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://brunosbrunoro.com.br/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Organização"
-      },
-      {
-        "name": "William S Rodriguez",
-        "photoUrl": "/images/people/william.jpg",
-        "socials": [
-          {
-            "icon": "twitter",
-            "link": "https://twitter.com/WilliamSRodz",
-            "name": "Twitter"
-          },
-          {
-            "icon": "website",
-            "link": "http://williamsrz.com.br/",
-            "name": "Blog"
-          }
-        ],
-        "title": "Organização"
-      }
+    "members": [{
+            "name": "Bruno Scrok Brunoro",
+            "photoUrl": "/images/people/bruno.jpg",
+            "socials": [{
+                    "icon": "twitter",
+                    "link": "https://twitter.com/brunosbrunoro",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "website",
+                    "link": "http://brunosbrunoro.com.br/",
+                    "name": "Blog"
+                }
+            ],
+            "title": "Organização"
+        },
+        {
+            "name": "William S Rodriguez",
+            "photoUrl": "/images/people/william.jpg",
+            "socials": [{
+                    "icon": "twitter",
+                    "link": "https://twitter.com/WilliamSRodz",
+                    "name": "Twitter"
+                },
+                {
+                    "icon": "website",
+                    "link": "http://williamsrz.com.br/",
+                    "name": "Blog"
+                }
+            ],
+            "title": "Organização"
+        }
     ]
-  }
-]
+}]

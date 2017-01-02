@@ -1,53 +1,38 @@
-# 1. Purpose
+Este código de conduta é um cópia autorizada do código de conduta da Bocoup e baseado no Código de Conduta da JSConf™ e no Código de Conduta do Cidadão.
 
+Ao participar da Capivara Codes Conference em qualquer qualificação, incluindo a de encarregado, palestrante, patrocinador, voluntário ou convidado, você concorda em respeitar este código de conduta e cooperar com os organizadores do evento para fazer cumpri-lo.
 
-A primary goal of [GDG Lviv](http://lviv.gdg.org.ua/) is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof). 
-GDG Lviv prides itself on being an open, respectful, and inclusive community. That means the [jerky behavior](https://meta.wikimedia.org/wiki/Don%27t_be_a_jerk) isn’t allowed at GDG meetings.
+# A versão rápida
+O Capivara Codes Conference se dedica a promover uma experiência livre de assédios para todos, independente do gênero, orientação sexual, incapacidade, aparência física, tamanho do corpo, raça ou religião. Nós não toleramos assédio pelos participantes do evento sob nenhuma forma. Linguagem e imagens sexuais não são adequadas para qualquer situação, incluindo as palestras. Os participantes que violarem essas regras podem ser penalizados ou até expulsos de um evento sem reembolso a critério dos organizadores do evento.
 
-This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.
-We invite all those who participate in Google Developers Group to help us create safe and positive experiences for everyone.
+# A versão menos rápida
 
-# 2. Open [Source/Culture/Tech] Citizenship
+## Proposta
 
-A supplemental goal of this Code of Conduct is to increase open [source/culture/tech] citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community. Communities mirror the societies in which they exist, and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society. If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.
+Este documento existe para permitir que os participantes da Capivara Codes Conference possam criar/ter uma atmosfera que seja profissional, empática e propícia à aprendizagem.
 
-# 3. Expected Behavior
+## Comportamento esperado do participante
 
-The following behaviors are expected and requested of all community members:
+Os envolvidos devem se comportar de forma adequada e profissional durante as suas participações nos eventos. Individualmente, todos os participantes devem evitar ativamente atos intencionais e não intencionais de assédio a outros participantes. O assédio inclui comentários ofensivos relacionados ao gênero, orientação sexual, incapacidade, aparência física, tamanho do corpo, raça, religião, imagens sexuais em espaços públicos, intimidação deliberada, perseguições, fotografias ou gravações que configurem assédio, interrupções contínuas de palestras ou outros eventos, contato físico inadequado e atenção sexual indesejada.
 
-- Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.
-- Exercise consideration and respect in your speech and actions.
-- Attempt collaboration before a conflict.
-- Refrain from demeaning, discriminatory, or harassing behavior and speech.
-- Be mindful of your surroundings and your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.
+Os patrocinadores estão sujeitos às mesmas expectativas dos convidados do evento, e ambos são considerados “participantes”. Além disso, patrocinadores não deverão usar imagens, atividades ou outros materiais sexualizados. A equipe de estante (incluindo voluntários) não deverá usar roupas, uniformes ou fantasias sexualizadas, nem criar ambientes sexualizados.
 
-# 4. Unacceptable Behavior
+Se outro participante ou membro da equipe durante o evento solicitar a você que abandone algum comportamento, você deve obedecer imediatamente e deverá procurar um organizador da conferência para orientações adicionais.
 
-The following actions are considered harassment and are unacceptable within our community:
+## Consequências de comportamentos inaceitáveis
 
-- Violence, threats of violence or violent language directed against another person.
-- Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.
-- Posting or displaying sexually explicit or violent material.
-- Posting or threatening to post other people’s personally identifying information ("doxing").
-- Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.
-- Inappropriate photography or recording.
-- Inappropriate physical contact. You should have someone’s consent before touching them.
-- Unwelcome sexual attention. This includes sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.
-- Deliberate intimidation, stalking or following (online or in person).
-- Advocating for, or encouraging, any of the above behavior.
-- Sustained disruption of community events, including talks and, presentations.
+Os organizadores do evento, para fazer cumprir este documento, ao seu critério, podem solicitar que um participante interrompa algum comportamento, advertir o participante sobre a sua violação ou até expulsar o participante de um evento sem reembolso (incluindo a não devolução de contribuições por patrocínios). Participantes devem obedecer imediatamente a tais pedidos dos organizadores.
 
-#  5. Consequences of Unacceptable Behavior
+## Se você testemunhar ou for vítima de um comportamento inaceitável
 
-Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.
-Anyone asked to stop unacceptable behavior is expected to comply immediately.
-If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event.
+Se você for assediado, perceber que alguém está sendo assediado ou tiver quaisquer outras preocupações, por favor contate um membro da equipe imediatamente. A equipe pode ser identificada pelo crachá de “STAFF” ou “EQUIPE”.
 
-# 6. Scope
+A equipe do evento ficará satisfeita em ajudar os participantes a chamar a segurança do hotel/local ou as autoridades legais, prover escolta ou até dar assistência às vítimas de assédio para se sentirem seguros por toda a duração evento. Nós valorizamos a sua participação.
 
-We expect all community participants to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications about community business. This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to affect the safety and well-being of community members adversely.
+## Cidadania Open
 
-# 7. Contact info
+Um objetivo complementar desse Código de Conduta é aumentar a cidadania Open Source incentivando os participantes a reconhecer e fortalecer as relações entre as nossas ações e seus efeitos em nossa comunidade. Comunidades refletem as sociedades em que elas existem e uma ação positiva é essencial para reagir às várias formas de desigualdade e abusos de poder que existem na sociedade. Se você ver alguém que esteja fazendo um esforço extra para garantir que a nossa comunidade seja acolhedora, amigável e incentivadora de todos os participantes a contribuir ao máximo, nós queremos saber.
 
-- Oleh Zasadnyy, +38 093 486 64 60, [oleh.zasadnyy@gdg.org.ua](mailto:oleh.zasadnyy@gdg.org.ua)
-- Sofiya Huts, +38 093 486 14 25, [sofia.huts@gmail.com](mailto:sofia.huts@gmail.com)
+## Escopo
+
+Esperamos que os participantes sigam essas regras em todos os locais de eventos e eventos sociais relacionados.

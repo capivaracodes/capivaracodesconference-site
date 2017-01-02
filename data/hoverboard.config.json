@@ -83,7 +83,7 @@
                 },
                 {
                     "text": "capivara-codes",
-                    "url": "https://capivara.codes/",
+                    "url": "https://www.facebook.com/capivaracodes",
                     "newTab": true
                 }
             ]
@@ -145,15 +145,11 @@
             "caption": "attendees"
         },
         {
-            "counter": 1,
-            "caption": "days"
-        },
-        {
             "counter": 10,
             "caption": "sessions"
         },
         {
-            "counter": 1,
+            "counter": 500,
             "caption": "tracks"
         }
     ],
@@ -179,7 +175,7 @@
         }
     },
     "location": {
-        "apiKey": "",
+        "apiKey": "AIzaSyDPuDfwt2XtS7QC3BoQPlL5eTWJ_TFrKUQ",
         "link": "http://www.fesppr.br/portal/",
         "pointer": {
             "latitude": -25.425179,
