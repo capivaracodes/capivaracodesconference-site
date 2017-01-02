@@ -17,7 +17,7 @@
 
 <dom-module id="toolbar-block">
 
-  <template>
+    <template>
 
     <style include="shared-styles">
       :host {
@@ -140,7 +140,7 @@
         <a href="/" hidden$="{{hideLogo}}" fade>
           <iron-image
             class="logo"
-            src="/images/logo-white.svg"
+            src="/images/logos/capivara_branca.svg"
             sizing="contain"
             alt="{{localize('title')}}"
           ></iron-image>
@@ -154,10 +154,10 @@
                 <a href$="[[nav.permalink]]" class="nav-link">{{localize(nav.route)}}</a>
               </paper-tab>
             </template>
-          </paper-tabs>
-        </template>
+    </paper-tabs>
+    </template>
 
-        <paper-tab class="signin-tab" on-tap="signIn" hidden$="[[app.user]]">[[localize('sign-in')]]</paper-tab>
+    <!--<paper-tab class="signin-tab" on-tap="signIn" hidden$="[[app.user]]">[[localize('sign-in')]]</paper-tab>
 
         <paper-menu-button
           class="auth-menu"
@@ -184,68 +184,68 @@
               </div>
             </div>
           </div>
-        </paper-menu-button>
+        </paper-menu-button>-->
 
-        <div class="action-button-wrapper" hidden$="[[app.isPhoneSize]]" layout horizontal center-center>
-          <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
+    <div class="action-button-wrapper" hidden$="[[app.isPhoneSize]]" layout horizontal center-center>
+        <a href$="[[app.data.tickets.url]]" target="_blank" rel="noopener noreferrer" on-tap="_trackBuyClick">
             <paper-button class="action-button">[[localize('buy-ticket')]]</paper-button>
-          </a>
-        </div>
-      </div>
+        </a>
+    </div>
+    </div>
     </app-toolbar>
 
-  </template>
+    </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'toolbar-block',
+                is: 'toolbar-block',
 
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.UtilsBehavior
-        ],
+                behaviors: [
+                    HOVERBOARD.LocalizeBehavior,
+                    HOVERBOARD.UtilsBehavior
+                ],
 
-        properties: {
-          hideLogo: {
-            type: Boolean
-          }
-        },
+                properties: {
+                    hideLogo: {
+                        type: Boolean
+                    }
+                },
 
-        observers: [
-          '_stylesChanged(app.headerSettings)'
-        ],
+                observers: [
+                    '_stylesChanged(app.headerSettings)'
+                ],
 
-        togglePanel: function () {
-          HOVERBOARD.Elements.Template.toggleDrawer();
-        },
+                togglePanel: function() {
+                    HOVERBOARD.Elements.Template.toggleDrawer();
+                },
 
-        signIn: function () {
-          HOVERBOARD.Elements.Template.signIn();
-        },
+                signIn: function() {
+                    HOVERBOARD.Elements.Template.signIn();
+                },
 
-        signOut: function () {
-          HOVERBOARD.Elements.Template.signOut();
-        },
+                signOut: function() {
+                    HOVERBOARD.Elements.Template.signOut();
+                },
 
-        _stylesChanged: function (headerSettings) {
-          if (headerSettings) {
-            this.customStyle['--header-color'] = headerSettings.fontColor;
-            this.hideLogo = headerSettings.hideLogo;
-            this.updateStyles();
-          }
-        },
+                _stylesChanged: function(headerSettings) {
+                    if (headerSettings) {
+                        this.customStyle['--header-color'] = headerSettings.fontColor;
+                        this.hideLogo = headerSettings.hideLogo;
+                        this.updateStyles();
+                    }
+                },
 
-        _trackBuyClick: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
-        }
+                _trackBuyClick: function() {
+                    HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'toolbar');
+                }
 
-      });
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 
 </dom-module>
