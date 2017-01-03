@@ -13,7 +13,7 @@
 
 <dom-module id="header-content">
 
-  <template>
+    <template>
 
     <style include="shared-styles">
       :host {
@@ -129,8 +129,8 @@
         <animatable-content name="home">
           <div class="container" center-justified>
             <div class="home-wrapper">
-              <iron-image class="logo" src="/images/logos/capivara_branca.svg" sizing="contain"
-                          alt="Capivara Codes Conference"></iron-image>
+              <img class="logo" src="/images/logos/capivara_branca.svg" sizing="contain"
+                          alt="Capivara Codes Conference"></img>
               <h3 class="dates">{{localize('dates')}}</h3>
               <h2 class="motto">{{localize('motto')}}</h2>
               <div class="action-buttons">
@@ -171,48 +171,48 @@
 
   </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'header-content',
+                is: 'header-content',
 
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior
-        ],
+                behaviors: [
+                    HOVERBOARD.LocalizeBehavior
+                ],
 
-        properties: {
-          app: {
-            type: Object
-          },
-          schedule: Array,
-          selectedDay: {
-            type: Number,
-            notify: true,
-            value: 0
-          }
-        },
+                properties: {
+                    app: {
+                        type: Object
+                    },
+                    schedule: Array,
+                    selectedDay: {
+                        type: Number,
+                        notify: true,
+                        value: 0
+                    }
+                },
 
-        _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
-            this.app.data.pages.home.headerSettings.video.youtubeId, true);
-          HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
-        },
+                _openVideo: function() {
+                    HOVERBOARD.Elements.Template.openVideo(this.app.data.pages.home.headerSettings.video.title,
+                        this.app.data.pages.home.headerSettings.video.youtubeId, true);
+                    HOVERBOARD.Analytics.trackEvent('video', 'watch', this.app.data.pages.home.headerSettings.video.title);
+                },
 
-        _scrollToTickets: function () {
-          HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
-          Polymer.AppLayout.scroll({
-            top: HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,
-            behavior: 'smooth',
-            target: HOVERBOARD.Elements.Scroller
-          });
-        }
+                _scrollToTickets: function() {
+                    HOVERBOARD.Analytics.trackEvent('ticket', 'buy_click', 'header');
+                    Polymer.AppLayout.scroll({
+                        top: HOVERBOARD.Elements.Tickets.getBoundingClientRect().top,
+                        behavior: 'smooth',
+                        target: HOVERBOARD.Elements.Scroller
+                    });
+                }
 
-      });
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 
 </dom-module>
