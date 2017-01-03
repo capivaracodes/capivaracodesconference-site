@@ -51,6 +51,10 @@
             "permalink": "/"
         },
         {
+            "route": "speakers",
+            "permalink": "/speakers/"
+        },
+        {
             "route": "team",
             "permalink": "/team/"
         }

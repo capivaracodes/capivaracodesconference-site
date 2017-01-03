@@ -18,10 +18,10 @@
 
 <dom-module id="home-page">
 
-  <template>
+    <template>
 
     <statistics-block app="{{app}}" cascaded></statistics-block>
-    <!--<featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>-->
+    <featured-people app="{{app}}" people="{{people}}" cascaded></featured-people>
     <photo-block app="{{app}}" cascaded></photo-block>
     <about-block app="{{app}}" cascaded></about-block>
     <tickets-block app="{{app}}" cascaded></tickets-block>
@@ -31,44 +31,44 @@
 
   </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'home-page',
+                is: 'home-page',
 
-        behaviors: [
-          HOVERBOARD.PageBehavior,
-          HOVERBOARD.CascadedBehavior
-        ],
+                behaviors: [
+                    HOVERBOARD.PageBehavior,
+                    HOVERBOARD.CascadedBehavior
+                ],
 
-        properties: {
-          people: {
-            type: Array
-          },
+                properties: {
+                    people: {
+                        type: Array
+                    },
 
-          posts: {
-            type: Array
-          },
+                    posts: {
+                        type: Array
+                    },
 
-          logos: {
-            type: Array
-          },
+                    logos: {
+                        type: Array
+                    },
 
-          videos: {
-            type: Array
-          }
-        },
+                    videos: {
+                        type: Array
+                    }
+                },
 
-        ready: function() {
-          this.updateCascadedNodes();
-        }
+                ready: function() {
+                    this.updateCascadedNodes();
+                }
 
-      });
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 
 </dom-module>
