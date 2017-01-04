@@ -34,7 +34,10 @@
         "shortBio": "Co-fundador do GURU-PR, desenvolvedor louco por tecnologia! Na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes.",
         "bio": "Co-fundador do GURU-PR e do WSO2 Brasil!\n Organizador do Tech Day, que ocorre anualmente em Curitiba.\n Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
         "tags": [
-            "Ruby"
+            "Ruby",
+            "Cloud",
+            "Open Source",
+            "Kubernetes"
         ],
         "badges": [],
         "socials": [{
@@ -46,6 +49,44 @@
                 "icon": "github",
                 "name": "GitHub",
                 "link": "https://github.com/vyper"
+            }
+        ]
+    },
+    "3": {
+        "id": 3,
+        "featured": true,
+        "name": "Cynthia Zanoni",
+        "title": "Technical Evangelist",
+        "company": "Microsoft",
+        "companyLogo": "/images/logos/microsoft.jpg",
+        "country": "São Paulo, Brasil",
+        "photoUrl": "/images/people/cynthia.jpg",
+        "shortBio": "Technical Evangelist na Microsoft, entusiasta de open source e comunidades, curadora do Mobile Summit e organizadora do WoMakersCode e Mobile Brasil. ",
+        "bio": " Evangelista Técnica na Microsoft, curadora da Mobile Summit Brazil e idealizadora do WoMakersCode, um projeto focado em capacitação e empoderamento feminino e de minorias na TI e atua, também, como coordenadora do WoMoz (Women & Mozilla). É apaixonada open source e nas horas vagas, cria projetos e iniciativas que possam contribuir para o fortalecimento das mulheres no mercado de trabalho e comunidades de tecnologia.",
+        "tags": [
+            "Cloud",
+            "Open Source"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://www.twitter.com/cynthiazanoni"
+            },
+            {
+                "icon": "website",
+                "name": "Webite",
+                "link": "http://cyz.github.io"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/cynthiazanoni"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "http://br.linkedin.com/in/cynthiazanoni"
             }
         ]
     }
