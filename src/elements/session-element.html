@@ -14,7 +14,7 @@
 
 <dom-module id="session-element">
 
-  <template>
+    <template>
 
     <style include="shared-styles">
       :host {
@@ -194,23 +194,6 @@
               <iron-icon icon="tags"></iron-icon>
               <span>[[_joinArray(session.tags)]]</span>
             </div>
-
-            <iron-icon
-              class$="action-icon [[myScheduleIcon]]"
-              icon$="[[myScheduleIcon]]"
-              on-tap="toggleMyScheduleSession"
-              session-id$="[[session.id]]"
-              disabled$="[[!online]]"
-            ></iron-icon>
-
-            <template is="dom-if" if="[[!app.user.uid]]">
-              <iron-icon
-                class="action-icon add-icon-outline"
-                icon="add-circle-outline"
-                on-tap="toggleMyScheduleSession"
-                disabled$="[[!online]]"
-              ></iron-icon>
-            </template>
           </div>
 
           <div
@@ -234,82 +217,82 @@
               </div>
             </template>
 
-          </div>
+    </div>
 
-        </div>
-      </paper-card>
+    </div>
+    </paper-card>
     </a>
 
-  </template>
+    </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'session-element',
+                is: 'session-element',
 
-        behaviors: [
-          Polymer.AppNetworkStatusBehavior,
-          HOVERBOARD.UtilsBehavior,
-          HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.MyScheduleBehavior
-        ],
+                behaviors: [
+                    Polymer.AppNetworkStatusBehavior,
+                    HOVERBOARD.UtilsBehavior,
+                    HOVERBOARD.LocalizeBehavior,
+                    HOVERBOARD.MyScheduleBehavior
+                ],
 
-        properties: {
-          app: {
-            type: Object,
-            notify: true
-          },
+                properties: {
+                    app: {
+                        type: Object,
+                        notify: true
+                    },
 
-          session: {
-            type: Object
-          },
+                    session: {
+                        type: Object
+                    },
 
-          sessionColor: {
-            type: String,
-            value: ''
-          },
+                    sessionColor: {
+                        type: String,
+                        value: ''
+                    },
 
-          myScheduleIcon: {
-            type: String,
-            value: 'add-circle-outline'
-          }
-        },
+                    myScheduleIcon: {
+                        type: String,
+                        value: 'add-circle-outline'
+                    }
+                },
 
-        observers: [
-          '_getMyScheduleIcon(session.id, app.user.sessions)',
-          '_userUpdated(app.user)'
-        ],
+                observers: [
+                    '_getMyScheduleIcon(session.id, app.user.sessions)',
+                    '_userUpdated(app.user)'
+                ],
 
-        ready: function () {
-          this.async(function () {
-            this.sessionColor = this.getComputedStyleValue('--' + this._generateClass(this.session.mainTag));
-          });
-        },
+                ready: function() {
+                    this.async(function() {
+                        this.sessionColor = this.getComputedStyleValue('--' + this._generateClass(this.session.mainTag));
+                    });
+                },
 
-        _splitText: function (text, divider, index) {
-          return text.split(divider)[index];
-        },
+                _splitText: function(text, divider, index) {
+                    return text.split(divider)[index];
+                },
 
-        _joinArray: function (array) {
-          if (!array) return;
-          return array.join(', ');
-        },
+                _joinArray: function(array) {
+                    if (!array) return;
+                    return array.join(', ');
+                },
 
-        _getMyScheduleIcon: function (id) {
-          this.myScheduleIcon = this.isInMySchedule(id) ? 'remove-circle' : 'add-circle-outline';
-        },
+                _getMyScheduleIcon: function(id) {
+                    this.myScheduleIcon = this.isInMySchedule(id) ? 'remove-circle' : 'add-circle-outline';
+                },
 
-        _userUpdated: function (user) {
-          if (!user && this.session) {
-            this._getMyScheduleIcon(this.session.id);
-          }
-        }
-      });
+                _userUpdated: function(user) {
+                    if (!user && this.session) {
+                        this._getMyScheduleIcon(this.session.id);
+                    }
+                }
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 
 </dom-module>

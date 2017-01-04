@@ -26,7 +26,7 @@
 
 <dom-module id="session-details">
 
-  <template>
+    <template>
 
     <style include="shared-styles dialog-styles">
       a {
@@ -77,13 +77,6 @@
         </div>
       </paper-toolbar>
       <div class="content">
-        <paper-fab
-          class$="float-button header-action [[fabIcon]]"
-          icon="[[fabIcon]]"
-          session-id$="[[session.id]]"
-          on-tap="toggleMyScheduleSession"
-          disabled$="[[!online]]"
-        ></paper-fab>
 
         <div class="metadata-wrapper">
           <div class="main-info">
@@ -166,112 +159,108 @@
                       <a class="badge" href$="[[badge.link]]" target="_blank"
                          rel="noopener noreferrer">[[badge.name]]</a>
                     </template>
-                  </div>
-                  <truncate-marked-text
-                    text="[[speaker.bio]]"
-                    characters="220"
-                    break-last-word
-                  ></truncate-marked-text>
+    </div>
+    <truncate-marked-text text="[[speaker.bio]]" characters="220" break-last-word></truncate-marked-text>
 
-                  <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>[[localize('read-more')]]</a>
-                </div>
-              </div>
-            </template>
-          </div>
-        </div>
-      </template>
+    <a class="read-more" href$="/speakers/[[speaker.id]]" dialog-dismiss>[[localize('read-more')]]</a>
+    </div>
+    </div>
+    </template>
+    </div>
+    </div>
+    </template>
     </paper-scroll-header-panel>
 
-  </template>
+    </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'session-details',
+                is: 'session-details',
 
-        behaviors: [
-          Polymer.PaperDialogBehavior,
-          Polymer.NeonAnimationRunnerBehavior,
-          Polymer.AppNetworkStatusBehavior,
-          HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.UtilsBehavior,
-          HOVERBOARD.ShareBehavior,
-          HOVERBOARD.MyScheduleBehavior
-        ],
+                behaviors: [
+                    Polymer.PaperDialogBehavior,
+                    Polymer.NeonAnimationRunnerBehavior,
+                    Polymer.AppNetworkStatusBehavior,
+                    HOVERBOARD.LocalizeBehavior,
+                    HOVERBOARD.UtilsBehavior,
+                    HOVERBOARD.ShareBehavior,
+                    HOVERBOARD.MyScheduleBehavior
+                ],
 
-        properties: {
-          session: {
-            type: Object,
-            observer: '_sessionChanged'
-          },
-          fabIcon: {
-            type: String,
-            value: 'add'
-          }
-        },
+                properties: {
+                    session: {
+                        type: Object,
+                        observer: '_sessionChanged'
+                    },
+                    fabIcon: {
+                        type: String,
+                        value: 'add'
+                    }
+                },
 
-        observers: [
-          '_getMyScheduleIcon(session.id, app.user.sessions)'
-        ],
+                observers: [
+                    '_getMyScheduleIcon(session.id, app.user.sessions)'
+                ],
 
-        listeners: {
-          'neon-animation-finish': '_onNeonAnimationFinish'
-        },
+                listeners: {
+                    'neon-animation-finish': '_onNeonAnimationFinish'
+                },
 
-        _openVideo: function () {
-          HOVERBOARD.Elements.Template.openVideo(this.session.title, this.session.videoId, true);
-        },
+                _openVideo: function() {
+                    HOVERBOARD.Elements.Template.openVideo(this.session.title, this.session.videoId, true);
+                },
 
-        _concatArray: function (array) {
-          return array ? array.join(', ') : '';
-        },
+                _concatArray: function(array) {
+                    return array ? array.join(', ') : '';
+                },
 
-        _sessionChanged: function () {
-          var generatedClass = this._generateClass(this.session.mainTag);
-          this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
-          this._previousBrowserColor = HOVERBOARD.Util.getMetaThemeColor();
-          HOVERBOARD.Util.setMetaThemeColor(this.getComputedStyleValue('--' + generatedClass));
-          this.updateStyles();
-        },
+                _sessionChanged: function() {
+                    var generatedClass = this._generateClass(this.session.mainTag);
+                    this.customStyle['--paper-scroll-header-panel-color'] = 'var(--' + generatedClass + ')';
+                    this._previousBrowserColor = HOVERBOARD.Util.getMetaThemeColor();
+                    HOVERBOARD.Util.setMetaThemeColor(this.getComputedStyleValue('--' + generatedClass));
+                    this.updateStyles();
+                },
 
-        _renderOpened: function () {
-          if (this.withBackdrop && window.innerWidth > 960) {
-            this.backdropElement.open();
-          }
-          this.playAnimation('entry');
-          this.async(function () {
-            this.$.scrollHeaderPanel.scrollToTop(true);
-            this.$.scrollHeaderPanel.notifyResize();
-          });
-          HOVERBOARD.Analytics.trackEvent('session', 'open details', this.session.title);
-        },
+                _renderOpened: function() {
+                    if (this.withBackdrop && window.innerWidth > 960) {
+                        this.backdropElement.open();
+                    }
+                    this.playAnimation('entry');
+                    this.async(function() {
+                        this.$.scrollHeaderPanel.scrollToTop(true);
+                        this.$.scrollHeaderPanel.notifyResize();
+                    });
+                    HOVERBOARD.Analytics.trackEvent('session', 'open details', this.session.title);
+                },
 
-        _renderClosed: function () {
-          HOVERBOARD.Util.setMetaThemeColor(this._previousBrowserColor);
-          this.backdropElement.close();
-          this.playAnimation('exit');
-        },
+                _renderClosed: function() {
+                    HOVERBOARD.Util.setMetaThemeColor(this._previousBrowserColor);
+                    this.backdropElement.close();
+                    this.playAnimation('exit');
+                },
 
-        _onNeonAnimationFinish: function () {
-          if (this.opened) {
-            Polymer.IronDropdownScrollManager.pushScrollLock(this.$.scrollHeaderPanel);
-            this._finishRenderOpened();
-          } else {
-            Polymer.IronDropdownScrollManager.removeScrollLock(this.$.scrollHeaderPanel);
-            this._finishRenderClosed();
-          }
-        },
+                _onNeonAnimationFinish: function() {
+                    if (this.opened) {
+                        Polymer.IronDropdownScrollManager.pushScrollLock(this.$.scrollHeaderPanel);
+                        this._finishRenderOpened();
+                    } else {
+                        Polymer.IronDropdownScrollManager.removeScrollLock(this.$.scrollHeaderPanel);
+                        this._finishRenderClosed();
+                    }
+                },
 
-        _getMyScheduleIcon: function (id) {
-          this.fabIcon = this.isInMySchedule(id) ? 'remove' : 'add';
-        }
+                _getMyScheduleIcon: function(id) {
+                    this.fabIcon = this.isInMySchedule(id) ? 'remove' : 'add';
+                }
 
-      });
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 
 </dom-module>

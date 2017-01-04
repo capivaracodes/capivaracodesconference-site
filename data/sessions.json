@@ -1,1 +1,37 @@
-{}
+{
+    "131": {
+        "id": 131,
+        "title": "Palestra à definir",
+        "description": ""
+    },
+    "138": {
+        "id": 138,
+        "title": "Encerramento",
+        "description": "",
+        "image": "/images/backgrounds/closing.jpg"
+    },
+    "136": {
+        "id": 136,
+        "title": "Abertura",
+        "description": "",
+        "image": "/images/backgrounds/opening.jpg"
+    },
+    "134": {
+        "id": 134,
+        "title": "Coffee break",
+        "description": "Quero Cafééééé!",
+        "image": "/images/backgrounds/coffee-break.jpg"
+    },
+    "133": {
+        "id": 133,
+        "title": "Almoço",
+        "description": "Comidaaaaaaaaaa!",
+        "image": "/images/backgrounds/lunch.jpg"
+    },
+    "132": {
+        "id": 132,
+        "title": "Credenciamento e Welcome Coffee",
+        "description": "",
+        "image": "/images/backgrounds/registration.jpg"
+    }
+}

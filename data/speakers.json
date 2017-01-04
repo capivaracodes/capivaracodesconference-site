@@ -2,7 +2,7 @@
     "1": {
         "id": 1,
         "featured": true,
-        "name": " Walmyr Carvalho",
+        "name": "Walmyr Carvalho",
         "title": "Desenvolvedor Android",
         "company": "99",
         "companyLogo": "/images/logos/99.png",
@@ -21,5 +21,32 @@
             "name": "Twitter",
             "link": "https://twitter.com/walmyrcarvalho/"
         }]
+    },
+    "2": {
+        "id": 2,
+        "featured": true,
+        "name": "Leonardo Saraiva",
+        "title": "Desenvolvedor",
+        "company": "Beauty Date",
+        "companyLogo": "/images/logos/beautydate.png",
+        "country": "Campo Mourão, Brasil",
+        "photoUrl": "/images/people/leonardo.jpg",
+        "shortBio": "Co-fundador do GURU-PR, desenvolvedor louco por tecnologia! Na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes.",
+        "bio": "Co-fundador do GURU-PR e do WSO2 Brasil!\n Organizador do Tech Day, que ocorre anualmente em Curitiba.\n Desenvolvedor louco por tecnologia, atualmente surfando na onda de ruby, rails, hanami, go, grpc, docker, microserviços e kubernetes. Mas com experiência em sinatra, python (django), java, c# e um pouco de tudo, mas já não tão ativamente.",
+        "tags": [
+            "Ruby"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/vyper/"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/vyper"
+            }
+        ]
     }
 }
