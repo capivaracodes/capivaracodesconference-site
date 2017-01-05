@@ -140,7 +140,7 @@
     },
     "5": {
         "id": 5,
-        "featured": true,
+        "featured": false,
         "name": "Maria Clara Santana",
         "title": "Embaixadora do Technovation Challenge",
         "country": "Curitiba, Brasil",
