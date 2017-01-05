@@ -89,5 +89,89 @@
                 "link": "http://br.linkedin.com/in/cynthiazanoni"
             }
         ]
+    },
+    "4": {
+        "id": 4,
+        "featured": true,
+        "name": "Angelo Belchior",
+        "title": "Lead Software Developer",
+        "company": "ESX - entrega contínua de valor",
+        "companyLogo": "/images/logos/esx.png",
+        "country": "São Paulo, Brasil",
+        "photoUrl": "/images/people/angelo.png",
+        "shortBio": "Microsoft MVP em Visual Studio and Technologies, Lead Software Developer, Monkey Nights Co-Founder",
+        "bio": "Angelo Belchior é desenvolvedor há quase 15 anos tendo participado de projetos Desktop, Web e agora Mobile utilizando Xamarin. É Microsoft MVP em Visual Studio and Technologies, MCPD em Web e é Lead Software Developer na ESX",
+        "tags": [
+            "Mobile",
+            "Xamarin"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/angelobelchior"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://github.com/angelobelchior"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "http://fb.com/angelobelchior8"
+            },
+            {
+                "icon": "youtube",
+                "name": "YouTube",
+                "link": "http://youtube.com/angelobelchior"
+            },
+            {
+                "icon": "medium",
+                "name": "Medium",
+                "link": "https://medium.com/@angelobelchior"
+            },
+            {
+                "icon": "website",
+                "name": "MVP",
+                "link": "https://mvp.microsoft.com/pt-br/PublicProfile/5001635?fullName=Angelo%20Luis"
+            }
+        ]
+    },
+    "5": {
+        "id": 5,
+        "featured": true,
+        "name": "Maria Clara Santana",
+        "title": "Embaixadora do Technovation Challenge",
+        "country": "Curitiba, Brasil",
+        "photoUrl": "/images/people/maria.jpg",
+        "shortBio": "Embaixadora @ Technovation Challenge e Host @ Google CS First CWB. Apaixonada por web e entusiasta de Machine Learning.",
+        "bio": "Embaixadora do Technovation Challenge e Host do Google Computer Science First em Curitiba. Já atuou em diversas startups no Brasil e fora dele. Apaixonada pela web e entusiasta de Machine Learning, área que atuou como junior researcher durante a graduação. ",
+        "tags": [
+            "Front-end",
+            "Machine Learning"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://www.twitter.com/olarclara"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://www.github.com/clarasantana"
+            },
+            {
+                "icon": "medium",
+                "name": "Medium",
+                "link": "https://www.medium.com/@mariaclarasantana"
+            },
+            {
+                "icon": "website",
+                "name": "WebSite",
+                "link": "https://clarasantana.github.io/mariaclarasantana.github.io/"
+            }
+        ]
     }
 }
