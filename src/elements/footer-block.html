@@ -20,7 +20,7 @@
 
 <dom-module id="footer-block">
 
-  <template>
+    <template>
 
     <style include="shared-styles">
       :host {
@@ -188,74 +188,65 @@
                     <a href$="[[link.url]]" target="_getLinkTarget(link.newTab)">[[localize(link.text)]]</a>
                   </li>
                 </template>
-              </ul>
-            </div>
-          </template>
-          <div class="link-block-wrapper">
-            <div class="link-block-title">[[localize('contact-us')]]</div>
-            <ul class="link-block">
-              <template is="dom-repeat" items="[[app.data.contactBlock.links]]" as="link">
+    </ul>
+    </div>
+    </template>
+    <div class="link-block-wrapper">
+        <div class="link-block-title">[[localize('contact-us')]]</div>
+        <ul class="link-block">
+            <template is="dom-repeat" items="[[app.data.contactBlock.links]]" as="link">
                 <li>
                   <a href$="[[link.url]]" target="_getLinkTarget(link.newTab)">[[link.text]]</a>
                 </li>
               </template>
-            </ul>
-            <div class="icons-wrapper align-pb-block">
-              <template is="dom-repeat" items="[[app.data.social]]" as="network">
+        </ul>
+        <div class="icons-wrapper align-pb-block">
+            <template is="dom-repeat" items="[[app.data.social]]" as="network">
                 <a class="button-link" href$="[[network.url]]" target="_blank" rel="noopener noreferrer">
                   <paper-icon-button icon="icons:[[network.name]]"></paper-icon-button>
                 </a>
               </template>
-            </div>
-          </div>
-          <div class="subscribe">
-            <div class="link-block-title">[[localize('subscribe')]]</div>
-            <span>[[localize('subscribe-note')]]</span>
-            <mailchimp-subscribe
-              app="[[app]]"
-              url="[[app.data.mailchimp.url]]"
-              name="[[app.data.mailchimp.name]]"
-            ></mailchimp-subscribe>
-          </div>
-        </nav>
-      </div>
-      <div class="footer-content footer-bottom">
+        </div>
+    </div>
+    <div class="subscribe">
+        <div class="link-block-title">[[localize('subscribe')]]</div>
+        <span>[[localize('subscribe-note')]]</span>
+        <mailchimp-subscribe app="[[app]]" url="[[app.data.mailchimp.url]]" name="[[app.data.mailchimp.name]]"></mailchimp-subscribe>
+    </div>
+    </nav>
+    </div>
+    <div class="footer-content footer-bottom">
         <!-- Please do NOT delete next block -->
         <div class="copyright">
-          &copy; 2016 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
+            &copy; 2016 Based on <a href="https://github.com/gdg-x/hoverboard" target="_blank" rel="noopener noreferrer">Project
           Hoverboard</a>. Designed and created by <a href="http://o.zasadnyy.com/" target="_blank" rel="noopener noreferrer">Oleh
           Zasadnyy</a> &middot;
-          <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
+            <a href="http://lviv.gdg.org.ua" target="_blank" rel="noopener noreferrer">GDG Lviv</a>
         </div>
         <div class="gplus">
-          <g:plusone
-            size="medium"
-            width="200"
-            annotation="inline"
-            href$="{{app.data.url}}"
-          ></g:plusone>
+            <g:plusone size="medium" width="200" annotation="inline" href$="{{app.data.url}}"></g:plusone>
         </div>
 
         <paper-menu-button vertical-align="bottom" horizontal-align="left" share-menu>
-          <paper-icon-button icon="share" class="dropdown-trigger"></paper-icon-button>
-          <div class="dropdown-content">
-            <paper-icon-item on-tap="share" share="gplus">
-              <iron-icon icon="gplus" item-icon></iron-icon>
-              Google+
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="facebook">
-              <iron-icon icon="facebook" item-icon></iron-icon>
-              Facebook
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="twitter">
-              <iron-icon icon="twitter" item-icon></iron-icon>
-              Twitter
-            </paper-icon-item>
-            <paper-icon-item on-tap="share" share="copy">
-              <iron-icon icon="link" item-icon></iron-icon>
-              [[localize('copy-link')]]
-            </paper-icon-item>
-          </div>
+            <paper-icon-button icon="share" class="dropdown-trigger"></paper-icon-button>
+            <div class="dropdown-content">
+                <paper-icon-item on-tap="share" share="gplus">
+                    <iron-icon icon="gplus" item-icon></iron-icon>
+                    Google+
+                </paper-icon-item>
+                <paper-icon-item on-tap="share" share="facebook">
+                    <iron-icon icon="facebook" item-icon></iron-icon>
+                    Facebook
+                </paper-icon-item>
+                <paper-icon-item on-tap="share" share="twitter">
+                    <iron-icon icon="twitter" item-icon></iron-icon>
+                    Twitter
+                </paper-icon-item>
+                <paper-icon-item on-tap="share" share="copy">
+                    <iron-icon icon="link" item-icon></iron-icon>
+                    [[localize('copy-link')]]
+                </paper-icon-item>
+            </div>
         </paper-menu-button>
 
         <template is="dom-if" if="[[_showLanguageToggle(app.data.languages)]]">
@@ -279,45 +270,45 @@
                 >[[lang.name]]
                 </paper-item>
               </template>
-            </paper-menu>
-          </paper-menu-button>
+        </paper-menu>
+        </paper-menu-button>
         </template>
-      </div>
+    </div>
     </div>
 
-  </template>
+    </template>
 
-  <script>
-    (function () {
-      'use strict';
+    <script>
+        (function() {
+            'use strict';
 
-      Polymer({
+            Polymer({
 
-        is: 'footer-block',
+                is: 'footer-block',
 
-        behaviors: [
-          HOVERBOARD.LocalizeBehavior,
-          HOVERBOARD.ShareBehavior
-        ],
+                behaviors: [
+                    HOVERBOARD.LocalizeBehavior,
+                    HOVERBOARD.ShareBehavior
+                ],
 
-        scrollToTop: function (e) {
-          HOVERBOARD.Elements.Template.backToTop(e);
-        },
+                scrollToTop: function(e) {
+                    HOVERBOARD.Elements.Template.backToTop(e);
+                },
 
-        _changeLanguage: function (e) {
-          HOVERBOARD.Analytics.trackEvent('language', 'select', e.target.label);
-        },
+                _changeLanguage: function(e) {
+                    HOVERBOARD.Analytics.trackEvent('language', 'select', e.target.label);
+                },
 
-        _getLinkTarget: function (newTab) {
-          return newTab ? '_blank' : '';
-        },
+                _getLinkTarget: function(newTab) {
+                    return newTab ? '_blank' : '';
+                },
 
-        _showLanguageToggle: function (languages) {
-          return languages && (languages.length > 1);
-        }
+                _showLanguageToggle: function(languages) {
+                    return languages && (languages.length > 1);
+                }
 
-      });
+            });
 
-    }());
-  </script>
+        }());
+    </script>
 </dom-module>

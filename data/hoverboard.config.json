@@ -93,6 +93,11 @@
                     "text": "capivara-codes",
                     "url": "https://www.facebook.com/capivaracodes",
                     "newTab": true
+                },
+                {
+                    "text": "slack",
+                    "url": "http://slack.capivara.codes",
+                    "newTab": true
                 }
             ]
         },
@@ -169,8 +174,13 @@
         },
         {
             "name": "facebook",
-            "nickname": "Capivara Code",
+            "nickname": "Capivara Codes",
             "url": "https://www.facebook.com/capivaracodes"
+        },
+        {
+            "name": "slack",
+            "nickname": "Capivara Codes",
+            "url": "https://slack.capivara.codes"
         }
     ],
     "gallery": {
