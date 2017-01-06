@@ -207,5 +207,49 @@
                 "link": "http://fb.com/joselitojr"
             }
         ]
+    },
+    "7": {
+        "id": 7,
+        "featured": true,
+        "name": "Loiane Groner",
+        "title": "Desenvolvedora FullStack",
+        "country": "São Paulo, Brasil",
+        "company": "Citi e loiane.training",
+        "companyLogo": "/images/logos/citi.png",
+        "photoUrl": "/images/people/loiane.jpg",
+        "shortBio": "Dev FullStack @ Citi e é autora de 7 livros publicados mundialmente em inglês. Nas horas vagas publica cursos gratuitos em loiane.training.",
+        "bio": "Possui 10+ anos de experiência em TI, trabalha como desenvolvedora FullStack em uma empresa multinacional e ama compartilhar conhecimento! Já palestrou por vários eventos no Brasil e ministrou cursos nos Estados Unidos.\n Autora dos livros: Ext JS 4 First Look, Mastering Ext J(primeira e segunda edição), Sencha Architect App Development e Learning JavaScript Data Structures and Algorithms (primeira e segunda edição), JavaScript Regular Expressions - todos publicados pela editora Packt e lançados mundialmente em inglês (com tradução de alguns livros para chinês e coreano). Espera poder lançar livros em Português em breve. Entusiasta Java, Sencha, Angular e mobile híbrido (Phonegap/Ionic). Participa ativamente dessas comunidades. Escreve para o blog http://loiane.com e publica aulas e cursos em http://loiane.training.",
+        "tags": [
+            "Ionic",
+            "Front-end",
+            "JavaScrpit"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://www.twitter.com/loiane"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://www.facebook.com/loianegroner"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://github.com/loiane"
+            },
+            {
+                "icon": "youtube",
+                "name": "YouTube",
+                "link": "http://www.youtube.com/loianegroner"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "http://linkedin.com/in/loiane"
+            }
+        ]
     }
 }
