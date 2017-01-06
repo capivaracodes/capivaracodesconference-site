@@ -140,7 +140,7 @@
     },
     "5": {
         "id": 5,
-        "featured": false,
+        "featured": true,
         "name": "Maria Clara Santana",
         "title": "Embaixadora do Technovation Challenge",
         "country": "Curitiba, Brasil",
@@ -171,6 +171,40 @@
                 "icon": "website",
                 "name": "WebSite",
                 "link": "https://clarasantana.github.io/mariaclarasantana.github.io/"
+            }
+        ]
+    },
+    "6": {
+        "id": 6,
+        "featured": true,
+        "name": "Joselito Júnior",
+        "title": "Instrutor",
+        "country": "Recife, Brasil",
+        "company": "Tampa Works",
+        "companyLogo": "/images/logos/tampa.png",
+        "photoUrl": "/images/people/joselito.jpg",
+        "shortBio": "Organizador do GDG Recife e do devbeers, podcaster no Code Talks e instrutor do Ionic Bootcamp..",
+        "bio": " Organizador do GDG Recife e do devbeers, podcaster no Code Talks, instrutor dos Ionic Bootcamp e fundador das startups premiadas Estudorama e Rabiscapp. Além de ganhador de Hackathons aposentado, é entusiasta do Design Thinking, Lean Startup e desenvolvimento Ágil de software. Fã de Fórmula 1 e de fazer piadas de gosto duvidoso.",
+        "tags": [
+            "Progressive Web Apps",
+            "Front-end",
+            "Ionic"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "http://twitter.com/joselitjunior1"
+            },
+            {
+                "icon": "github",
+                "name": "GitHub",
+                "link": "http://github.com/joselitojunior1"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "http://fb.com/joselitojr"
             }
         ]
     }
