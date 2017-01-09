@@ -251,5 +251,32 @@
                 "link": "http://linkedin.com/in/loiane"
             }
         ]
+    },
+    "8": {
+        "id": 8,
+        "featured": true,
+        "name": "Lazaro Fernandes",
+        "title": "Desenvolvedora",
+        "country": "São Paulo, Brasil",
+        "company": "Lambda3",
+        "companyLogo": "/images/logos/lambda.png",
+        "photoUrl": "/images/people/lazaro.jpg",
+        "shortBio": "Desenvolvedor na Lambda3 e corredor nas horas vagas",
+        "bio": "Formado em Ciências da Computação e com pós-graduação em Desenvolvimento de Produtos e Serviços pela FIA, possui 10 anos de experiência em desenvolvimento web, participa de eventos, podcasts e meetups da área ajudando na divulgação de novas tecnologias ",
+        "tags": [
+            "Hololens"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/lazarofl"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://br.linkedin.com/in/lazaroflima"
+            }
+        ]
     }
 }
