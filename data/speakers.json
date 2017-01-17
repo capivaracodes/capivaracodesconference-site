@@ -256,7 +256,7 @@
         "id": 8,
         "featured": true,
         "name": "Lazaro Fernandes",
-        "title": "Desenvolvedora",
+        "title": "Desenvolvedor",
         "country": "São Paulo, Brasil",
         "company": "Lambda3",
         "companyLogo": "/images/logos/lambda.png",
@@ -276,6 +276,38 @@
                 "icon": "linkedin",
                 "name": "Linkedin",
                 "link": "https://br.linkedin.com/in/lazaroflima"
+            }
+        ]
+    },
+    "9": {
+        "id": 9,
+        "featured": true,
+        "name": "Neto Marin",
+        "title": "Developer Advocate",
+        "country": "São Paulo, Brasil",
+        "company": "Google",
+        "companyLogo": "/images/logos/google.png",
+        "photoUrl": "/images/people/NetoMarin.png",
+        "shortBio": "Android Developer Advocate no Google e podcaster, que tem como objetivo ajudar os desenvolvedores a criarem apps Android de alta qualidade.",
+        "bio": "Neto Marin é Developer Advocate do Google no Brasil e tem como principal objetivo ajudar os desenvolvedores a criarem aplicativos de alta qualidade para as plataformas Android. Um apaixonado pelas tecnologias móveis, começou a desenvolver para telefones celulares em 2005 com Java ME, tendo experiência em diversas outras plataformas e trabalhando com Android desde os primeiros SDKs em 2007. Desde 2010 vem se aventurando no mundo de softwares embarcados e pequenos dispositivos conectados como hobby, e agora está envolvido com a nova plataforma de IoT do Google, o Android Things. Neto também é um dos hosts do podcast Dev & Community Cast, que tem episódios sobre comunidades e desenvolvimento, além da série Faaala, Neto! onde compartilha suas experiências e pensamentos sobre o desenvolvimento de software.",
+        "tags": [
+            "Android"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "twitter",
+                "name": "Twitter",
+                "link": "https://twitter.com/netomarin"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google Plus",
+                "link": "http://google.com/+NetoMarin"
+            },
+            {
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://www.facebook.com/netomarin"
             }
         ]
     }
