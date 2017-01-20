@@ -310,5 +310,35 @@
                 "link": "https://www.facebook.com/netomarin"
             }
         ]
+    },
+    "10": {
+        "id": 10,
+        "featured": true,
+        "name": "Danilo Gonçalves",
+        "title": " Arquiteto de Software",
+        "country": "Curitiba, Brasil",
+        "company": "EBANX",
+        "companyLogo": "/images/logos/ebanx.svg",
+        "photoUrl": "/images/people/danilo.png",
+        "shortBio": " Arquiteto de Software no EBANX, rubista de longa data e entusiasta da programação funcional.",
+        "bio": "Arquiteto de Software no EBANX, rubista de longa data, nerd de carteirinha e eterno estudante. Trabalhando como desenvolvedor por mais de metade de sua existência, adquiriu experiência em diversas linguagens e tecnologias e deixou um rastro de novos rubistas por onde passou. Entusiasta da programação funcional, mais recentemente da linguagem Elixir, busca constantemente trazer novos membros para o lado imutável da força.",
+        "tags": [
+            "Ruby",
+            "PHP",
+            "Pokémon",
+            "Elixir"
+        ],
+        "badges": [],
+        "socials": [{
+                "icon": "github",
+                "name": "GitHub",
+                "link": "https://github.com/danxexe"
+            },
+            {
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://www.linkedin.com/in/danilorg/"
+            }
+        ]
     }
 }
