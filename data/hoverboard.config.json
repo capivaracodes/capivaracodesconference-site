@@ -68,6 +68,10 @@
         {
             "route": "team",
             "permalink": "/team/"
+        },
+        {
+            "route": "faq",
+            "permalink": "/faq/"
         }
     ],
     "url": "https://hoverboard.firebaseapp.com/",
