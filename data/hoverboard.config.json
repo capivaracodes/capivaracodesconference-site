@@ -44,6 +44,13 @@
                 "fontColor": "#fff",
                 "tabBarColor": "#fff"
             }
+        },
+        "faq": {
+            "headerSettings": {
+                "backgroundColor": "#673ab7",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
         }
     },
     "navigation": [{
@@ -88,6 +95,10 @@
                 {
                     "text": "cod",
                     "url": "/cod/"
+                },
+                {
+                    "text": "faq",
+                    "url": "/faq/"
                 },
                 {
                     "text": "capivara-codes",
