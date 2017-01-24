@@ -1,23 +1,26 @@
-[
-  {
-    "title": "template-creator",
-    "logos": [
-      {
-        "name": "Capivara Codes",
-        "url": "http://capivara.codes/",
-        "logoUrl": "../images/logos/capivara_rosa.svg",
-        "width": 170
-      }
-    ]
-  },
-  {
-    "title": "general-partner",
-    "logos": [
-      {
-        "name": "FESP",
-        "url": "http://www.fesppr.br/portal/",
-        "logoUrl": "../images/logos/fesp.jpg"
-      }
-    ]
-  }
+[{
+        "title": "template-creator",
+        "logos": [{
+            "name": "Capivara Codes",
+            "url": "http://capivara.codes/",
+            "logoUrl": "../images/logos/capivara_rosa.svg",
+            "width": 170
+        }]
+    },
+    {
+        "title": "general-partner",
+        "logos": [{
+            "name": "FESP",
+            "url": "http://www.fesppr.br/portal/",
+            "logoUrl": "../images/logos/fesp.jpg"
+        }]
+    },
+    {
+        "title": "midia-partner",
+        "logos": [{
+            "name": "iMasters",
+            "url": "http://imasters.com.br/",
+            "logoUrl": "../images/logos/imasters.png"
+        }]
+    }
 ]
