@@ -10,10 +10,16 @@
     {
         "title": "general-partner",
         "logos": [{
-            "name": "FESP",
-            "url": "http://www.fesppr.br/portal/",
-            "logoUrl": "../images/logos/fesp.jpg"
-        }]
+                "name": "FESP",
+                "url": "http://www.fesppr.br/portal/",
+                "logoUrl": "../images/logos/fesp.jpg"
+            },
+            {
+                "name": "Radek",
+                "url": "http://www.radek.com.br",
+                "logoUrl": "../images/logos/radek.png"
+            }
+        ]
     },
     {
         "title": "midia-partner",
