@@ -222,7 +222,7 @@
         "tags": [
             "Ionic",
             "Front-end",
-            "JavaScrpit"
+            "JavaScript"
         ],
         "badges": [],
         "socials": [{
@@ -353,7 +353,7 @@
         "shortBio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo",
         "bio": "Course Manager na Udacity, co-organiza o Google Developer Group de São Paulo e atua em diversas áreas voltadas para empreendedorismo e inovação, entre eles é responsável por um grupo de estudo de Internet das Coisas (IoT) no RedBull Station e pelo programa Startup in School, projeto de formação empreendedora e programação para estudantes de escolas públicas.",
         "tags": [
-            "IoT",
+            "iot",
             "Firebase "
         ],
         "socials": [{
@@ -389,6 +389,74 @@
             "name": "Twitter",
             "icon": "twitter",
             "link": "twitter.com/mrquinta"
+        }]
+    },
+    "13": {
+        "id": 13,
+        "featured": true,
+        "name": "André Baltieri",
+        "title": "CIO",
+        "company": "balta.io",
+        "country": "São Paulo, Brasil",
+        "companyLogo": "/images/logos/balta-io.png",
+        "photoUrl": "/images/people/baltieri.jpg",
+        "shortBio": "Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos.",
+        "bio": "Microsoft MVP desde 2013, trabalha com aplicações Web desde 2013 tendo atuado em projetos de pequeno, médio e grande porte no Brasil e Estados Unidos. Apesar do grande vínculo com a Microsoft, é amante das tecnologias Open Source, onde atua boa parte do tempo. Atualmente trabalha com consultorias e treinamentos, tendo passado por inúmeras empresas no Brasil, e é CIO da plataforma de cursos online, balta.io.",
+        "tags": [
+            "Dot Net Core",
+            "C#"
+        ],
+        "socials": [{
+            "name": "WebSite",
+            "icon": "website",
+            "link": "http://andrebaltieri.net/"
+        }]
+    },
+    "14": {
+        "id": 14,
+        "featured": true,
+        "name": "Ângelo Polotto",
+        "title": "Software Engineer",
+        "company": "Radek Systems",
+        "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/radek.png",
+        "photoUrl": "/images/people/polotto.jpg",
+        "shortBio": "Graduado em Engenharia, atua no desenvolvimento de software voltado para dispositivos móveis. Estuda a plataforma Arduino como hobby.",
+        "bio": "Graduado em Engenharia Eletrônica pela Universidade Tecnológica Federal do Paraná, possui interesse em desenvolvimento de software voltado para dispositivos móveis e embarcados. Trabalha atualmente com desenvolvimento para Android e iOS utilizando a ferramenta Xamarin e a linguagem C#.",
+        "tags": [
+            "Arduino"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://br.linkedin.com/in/angelo-polotto-7400576a"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/AngeloPolotto"
+        }]
+    },
+    "15": {
+        "id": 15,
+        "featured": true,
+        "name": "Matheus Donizete",
+        "title": "Desenvolvedor",
+        "company": "StrikeXII Development",
+        "country": "Curitiba, Brasil",
+        "photoUrl": "/images/people/matheus.jpg",
+        "shortBio": "Desenvolvedor JavaScript há 5 anos,inicialmente como front-end,atualmente trabalho com JavaScript Full-Stack e aplicações web em tempo real",
+        "bio": "Entusiasta JavaScript, cursando Ciência da Computação pela UFPR, desenvolvedor JavaScript há 5 anos, em paralelo trabalhando com diversas linguagens back-end, por vezes com desenvolvimento móvel, porém sempre no cenário front-end. Atualmente trabalhando com aplicações Full-Stack feitas em JavaScript, voltado a aplicações em tempo real.",
+        "tags": [
+            "Node JS"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://br.linkedin.com/in/angelo-polotto-7400576a"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/AngeloPolotto"
         }]
     }
 }

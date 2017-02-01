@@ -173,11 +173,14 @@
             "caption": "attendees"
         },
         {
-            "counter": 10,
+            "counter": 17,
             "caption": "sessions"
         },
         {
-            "counter": 500,
+            "counter": 765,
+            "caption": "minutos"
+        }, {
+            "counter": 3,
             "caption": "tracks"
         }
     ],

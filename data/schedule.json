@@ -3,6 +3,10 @@
     "dateReadable": "1 de Abril",
     "tracks": [{
         "title": "Auditório"
+    }, {
+        "title": "Sala 105"
+    }, {
+        "title": "Sala 106"
     }],
     "timeslots": [{
         "startTime": "08:00",
@@ -12,73 +16,77 @@
         ]
     }, {
         "startTime": "08:30",
-        "endTime": "08:50",
+        "endTime": "08:45",
         "sessions": [
             [136]
         ]
     }, {
         "startTime": "09:00",
-        "endTime": "10:50",
+        "endTime": "09:45",
         "sessions": [
+            [1006],
+            [1005],
+            [1007]
+        ]
+    }, {
+        "startTime": "10:00",
+        "endTime": "10:45",
+        "sessions": [
+            [1008],
+            [1009],
+            [1010]
+        ]
+    }, {
+        "startTime": "11:00",
+        "endTime": "11:45",
+        "sessions": [
+            [1011],
+            [1016],
             [131]
         ]
     }, {
-        "startTime": "10:50",
-        "endTime": "11:40",
-        "sessions": [
-            [131]
-        ]
-    }, {
-        "startTime": "11:40",
-        "endTime": "12:20",
-        "sessions": [
-            [131]
-        ]
-    }, {
-        "startTime": "12:20",
-        "endTime": "13:50",
+        "startTime": "12:00",
+        "endTime": "13:00",
         "sessions": [
             [133]
         ]
     }, {
+        "startTime": "13:00",
+        "endTime": "13:45",
+        "sessions": [
+            [1001],
+            [1014],
+            [131]
+        ]
+    }, {
         "startTime": "14:00",
-        "endTime": "14:40",
+        "endTime": "14:45",
         "sessions": [
-            [131]
+            [1002],
+            [1004],
+            [1017]
         ]
     }, {
-        "startTime": "14:40",
-        "endTime": "15:20",
-        "sessions": [
-            [131]
-        ]
-    }, {
-        "startTime": "15:20",
-        "endTime": "16:40",
-        "sessions": [
-            [131]
-        ]
-    }, {
-        "startTime": "16:40",
-        "endTime": "17:00",
+        "startTime": "15:00",
+        "endTime": "15:45",
         "sessions": [
             [134]
         ]
     }, {
+        "startTime": "16:00",
+        "endTime": "16:45",
+        "sessions": [
+            [1003]
+        ]
+    }, {
         "startTime": "17:00",
-        "endTime": "17:40",
+        "endTime": "17:45",
         "sessions": [
-            [131]
+            [1015]
         ]
     }, {
-        "startTime": "17:40",
-        "endTime": "18:20",
-        "sessions": [
-            [131]
-        ]
-    }, {
-        "startTime": "18:20",
-        "endTime": "18:40",
+        "startTime": "17:45",
+        "endTime": "18:00",
         "sessions": [
             [138]
         ]

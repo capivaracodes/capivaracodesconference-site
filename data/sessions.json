@@ -42,7 +42,7 @@
             9
         ],
         "language": "Português",
-        "complexity": "Intermediate",
+        "complexity": "Basico",
         "tags": [
             "Android"
         ]
@@ -55,11 +55,191 @@
             2
         ],
         "language": "Português",
-        "complexity": "Intermediate",
+        "complexity": "Basico",
         "tags": [
-            "Microserviços",
-            "Kubernetes",
-            "Docker"
+            "Ruby",
+            "Cloud",
+            "Open Source",
+            "Kubernetes"
+        ]
+    },
+    "1003": {
+        "id": 1003,
+        "title": "Desenvolvendo apps holográficas com o Microsoft Hololens",
+        "description": "Confira nesta palestra como desenvolver aplicativos holográficos para o Microsoft Hololens utilizando C# e Unity. ",
+        "speakers": [
+            8
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Hololens"
+        ]
+    },
+    "1004": {
+        "id": 1004,
+        "title": "Derrubando mitos do desenvolvimento cross-platform ",
+        "description": "Entenda o que é Xamarin e como construir aplicativos nativos para Android e iOS utilizando a mesma linguagem de programação.",
+        "speakers": [
+            4
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Xamarin"
+        ]
+    },
+    "1005": {
+        "id": 1005,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            6
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Progressive Web Apps",
+            "Front-end",
+            "Ionic"
+        ]
+    },
+    "1006": {
+        "id": 1006,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            1
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Android"
+        ]
+    },
+    "1007": {
+        "id": 1007,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            10
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Ruby",
+            "PHP",
+            "Pokémon",
+            "Elixir"
+        ]
+    },
+    "1008": {
+        "id": 1008,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            13
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Dot Net Core",
+            "C#"
+        ]
+    },
+    "1009": {
+        "id": 1009,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            12
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Android",
+            "iOS "
+        ]
+    },
+    "1010": {
+        "id": 1010,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            5
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Machine Learning"
+        ]
+    },
+    "1011": {
+        "id": 1011,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            7
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Ionic",
+            "Front-end",
+            "JavaScript"
+        ]
+    },
+    "1014": {
+        "id": 1014,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            3
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Cloud"
+        ]
+    },
+    "1015": {
+        "id": 1015,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            11
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "iot",
+            "Firebase "
+        ]
+    },
+    "1016": {
+        "id": 1016,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            14
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Arduino"
+        ]
+    },
+    "1017": {
+        "id": 1017,
+        "title": "Tema a definir ",
+        "description": "",
+        "speakers": [
+            15
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Node JS"
         ]
     }
 }
