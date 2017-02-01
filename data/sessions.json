@@ -33,5 +33,33 @@
         "title": "Credenciamento e Welcome Coffee",
         "description": "",
         "image": "/images/backgrounds/registration.jpg"
+    },
+    "1001": {
+        "id": 1001,
+        "title": "Conhecendo o Android Things",
+        "description": "Recentemente o Google anunciou sua plataforma para Internet das Coisas, o Android Things. Agora, qualquer desenvolvedor Android também é um desenvolvedor de soluções para IoT e pode ir do protótipo a uma aplicação final usando tecnologias que já utiliza em aplicativos móveis. Nessa palestra, Neto Marin irá mostrar como funciona a plataforma, suas principais vantagens, características e no final, uma demo de como criar um projeto com o Android Studio e fazer uma pequena aplicação de forma rápida e simples.",
+        "speakers": [
+            9
+        ],
+        "language": "Português",
+        "complexity": "Intermediate",
+        "tags": [
+            "Android"
+        ]
+    },
+    "1002": {
+        "id": 1002,
+        "title": "Liberdade e escalabilidade: Microserviços, Kubernetes, gRPC e Docker",
+        "description": "Usando Kubernetes e Docker é possível entregar uma arquitetura de microserviços, _multi cloud_ e encontrar a felicidade em forma de escalabilidade e liberdade, sem ficar amarrado e dependente das 'mágicas' de um PaaS. ",
+        "speakers": [
+            2
+        ],
+        "language": "Português",
+        "complexity": "Intermediate",
+        "tags": [
+            "Microserviços",
+            "Kubernetes",
+            "Docker"
+        ]
     }
 }

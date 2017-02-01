@@ -369,5 +369,26 @@
             "icon": "github",
             "link": "https://github.com/luisleao"
         }]
+    },
+    "12": {
+        "id": 12,
+        "featured": true,
+        "name": "Marcelo Ricardo Quinta",
+        "title": "Professor e pesquisador",
+        "company": "UFG",
+        "country": "Goiânia, Brasil",
+        "companyLogo": "/images/logos/ufg.jpg",
+        "photoUrl": "/images/people/quinta.jpg",
+        "shortBio": "Desenvolvedor móvel há mais de 10 anos, professor, pesquisador, Google Expert, Intel Innovator, mentor de startups para o Google.",
+        "bio": "Desenvolvedor móvel há mais de 10 anos, professor, pesquisador, Google Expert, Intel Innovator, mentor de startups para o Google.",
+        "tags": [
+            "Android",
+            "iOS "
+        ],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "twitter.com/mrquinta"
+        }]
     }
 }
