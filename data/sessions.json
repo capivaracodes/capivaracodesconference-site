@@ -176,17 +176,15 @@
     },
     "1011": {
         "id": 1011,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Apps Mobile híbridas com Ionic 2",
+        "description": " Ionic 2 é um framework open source para desenvolvimento de aplicativos mobile híbrido, onde se pode desenvolver o aplicativo usando HTML/CSS e JavaScript, fazer acesso nativo usando essas tecnologias e compilar o app para diferentes plataformas como iOS, Android e Windows Phone e publicá-lo nas respectivas app stores. O Ionic 2 é baseado em frameworks também open source e populares no mercado: Phonegap/Cordova, Angular2 e Sass (CSS). Vamos aprender como criar um app em alguns minutos usando os principais conceitos do Angular 2 como Módulos, Components, Templates, Diretivas e Serviços + RxJS Observables.",
         "speakers": [
             7
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Ionic",
-            "Front-end",
-            "JavaScript"
+            "Ionic"
         ]
     },
     "1014": {
