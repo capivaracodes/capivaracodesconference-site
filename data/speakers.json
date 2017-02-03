@@ -452,11 +452,51 @@
         "socials": [{
             "name": "Linkedin",
             "icon": "linkedin",
-            "link": "https://br.linkedin.com/in/angelo-polotto-7400576a"
+            "link": "https://www.linkedin.com/in/matheusdonizete"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/MatheusDonizete"
         }, {
             "name": "Twitter",
             "icon": "twitter",
-            "link": "https://twitter.com/AngeloPolotto"
+            "link": "https://twitter.com/MathDonizete"
+        }]
+    },
+    "16": {
+        "id": 16,
+        "featured": true,
+        "name": "Marcos Hitanael Barchiki dos Santos",
+        "title": "CEO",
+        "company": "RouteSmart",
+        "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/routesmart.png",
+        "photoUrl": "/images/people/marcos.jpg",
+        "shortBio": "Desenvolvedor web/mobile, CEO na RouteSmart, Fundador da Comunidade CocosSharp BR, Nerd, Maker, Fã de C#, Xamarin, Games e IoT.",
+        "bio": "Sou desenvolvedor, empreendedor, nerd e maker. CEO na RouteSmart e 100% focado em soluções inovadoras. Fundador da Comunidade CocosSharp Brasil e membro do CodeFor Curitiba. Fã de C#, PHP e Hackathons OpenSource. Entusiasta de Xamarin, Games, IoT e realidade Virtual.",
+        "tags": [
+            "Xamarin"
+        ],
+        "socials": [{
+            "name": "Linkedin",
+            "icon": "linkedin",
+            "link": "https://www.linkedin.com/in/marcos-hitanael-barchiki-dos-santos-38647032"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/mhbsti"
+        }, {
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/mhbsantos"
+        }, {
+            "name": "Website",
+            "icon": "website",
+            "link": "http://mhbs.com.br"
+        }, {
+            "name": "Medium",
+            "icon": "medium",
+            "link": "https://medium.com/@barchiki/"
         }]
     }
 }

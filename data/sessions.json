@@ -187,6 +187,19 @@
             "Ionic"
         ]
     },
+    "1012": {
+        "id": 1012,
+        "title": "Xamarin CocosSharp, muito além dos Games.",
+        "description": " Essa palestra tem como objetivo demonstrar todo o potencial do Xamarin CocosSharp para a criação de games, ou ainda criar interfaces ricas e mais elaboradas para seus apps com Xamarin.Forms.",
+        "speakers": [
+            16
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Xamarin"
+        ]
+    },
     "1014": {
         "id": 1014,
         "title": "Tema a definir ",
