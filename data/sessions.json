@@ -135,16 +135,15 @@
     },
     "1008": {
         "id": 1008,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Progressive Web Apps e o Futuro da Web e das aplicações Mobile",
+        "description": "As aplicações Mobile já dominam o mercado, isto é um fato, mas você, já parou para pensar o que acontecerá com nossas queridas aplicações Web em um futuro próximo, onde teremos cada vez mais dispositivos móveis, quem sabe até substituindo completamente os PCs?",
         "speakers": [
             13
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Dot Net Core",
-            "C#"
+            "Progressive Web Apps"
         ]
     },
     "1009": {
@@ -242,8 +241,8 @@
     },
     "1017": {
         "id": 1017,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Habilitando HTTP/2 e Conversando com o browser",
+        "description": "Como funciona o HTTP/2 com NodeJS? Entenda as implicações, abordagens e recursos existentes para auxiliar na performance das suas aplicações web abordando também a Web Cache API e questões de performance na integração entre cliente e servidor.",
         "speakers": [
             15
         ],
