@@ -443,6 +443,7 @@
         "title": "Desenvolvedor",
         "company": "StrikeXII Development",
         "country": "Curitiba, Brasil",
+        "companyLogo": "/images/logos/strike.png",
         "photoUrl": "/images/people/matheus.jpg",
         "shortBio": "Desenvolvedor JavaScript há 5 anos,inicialmente como front-end,atualmente trabalho com JavaScript Full-Stack e aplicações web em tempo real",
         "bio": "Entusiasta JavaScript, cursando Ciência da Computação pela UFPR, desenvolvedor JavaScript há 5 anos, em paralelo trabalhando com diversas linguagens back-end, por vezes com desenvolvimento móvel, porém sempre no cenário front-end. Atualmente trabalhando com aplicações Full-Stack feitas em JavaScript, voltado a aplicações em tempo real.",
