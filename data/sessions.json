@@ -119,17 +119,14 @@
     },
     "1007": {
         "id": 1007,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Programação Funcional: A Nova Geração",
+        "description": "Linguagens de programação funcionais já estão conosco a quase 60 anos. Se elas realmente trazem todos os benefícios mencionados pelos seus defensores, porque a orientação a objetos ainda é o paradigma dominante? Será que essa onda recente de popularidade é uma tendência ou só uma moda passageira? Vamos tentar responder estas e outras perguntas dando uma olhada no Elixir, um dos tripulantes da 'nova geração' de linguagens funcionais.",
         "speakers": [
             10
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Ruby",
-            "PHP",
-            "Pokémon",
             "Elixir"
         ]
     },
