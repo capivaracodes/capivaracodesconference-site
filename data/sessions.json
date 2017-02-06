@@ -225,8 +225,8 @@
     },
     "1016": {
         "id": 1016,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Conceitos básicos de eletrônica aplicados ao Arduino",
+        "description": "Dentro do grande número de projetos com o Arduino disponíveis na Internet, sempre surgem dúvidas de qual é o melhor a ser seguido. O objetivo dessa palestra é mostrar conceitos básicos de eletrônica para ajudar nessa escolha.",
         "speakers": [
             14
         ],
