@@ -434,7 +434,12 @@
             "name": "Twitter",
             "icon": "twitter",
             "link": "https://twitter.com/AngeloPolotto"
+        }, {
+            "name": "Github",
+            "icon": "github",
+            "link": "https://github.com/angelopolotto"
         }]
+
     },
     "15": {
         "id": 15,
