@@ -106,8 +106,8 @@
     },
     "1006": {
         "id": 1006,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Material Design para Desenvolvedores Android",
+        "description": "O Material Design é um visual language criado pelo Google para estabelecer boas práticas de design, usabilidade e motion para Android e web. Nesse talk vamos aprender as melhores práticas para se aplicar o Material Design em projetos Android, inclusive para dispositivos pré-Lollipop, com a utilização eficiente das support libraries disponíveis.",
         "speakers": [
             1
         ],
