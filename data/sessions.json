@@ -196,6 +196,20 @@
             "Xamarin"
         ]
     },
+    "1013": {
+        "id": 1013,
+        "title": "DevOps para todos os times",
+        "description": "Nesta palestra vamos usar o Visual Studio Team Services para criar um release pipeline completo para o Azure. Você verá vários recursos do VSTS em ação, incluindo criação de projetos, planejamento Agile (backlog e Kanban), Git, integração contínua, Unit Tests, Release Management e Azure. Você poderá levar o que aprendeu nesta sessão e implementá-lo em sua organização para qualquer linguagem e para qualquer plataforma.",
+        "speakers": [
+            17
+        ],
+        "language": "Português",
+        "complexity": "Basico",
+        "tags": [
+            "Visual Studio",
+            "DevOps"
+        ]
+    },
     "1014": {
         "id": 1014,
         "title": "Tema a definir ",

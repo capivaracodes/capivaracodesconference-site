@@ -504,5 +504,25 @@
             "icon": "medium",
             "link": "https://medium.com/@barchiki/"
         }]
+    },
+    "17": {
+        "id": 17,
+        "featured": true,
+        "name": "Leandro Prado",
+        "title": "Premier Field Engineer",
+        "company": "Microsoft",
+        "country": "São Paulo, Brasil",
+        "companyLogo": "/images/logos/microsoft.jpg",
+        "photoUrl": "/images/people/leandro.png",
+        "shortBio": "Leandro Prado é graduado em Sistemas de Informação pela PUC-PR, trabalho com desenvolvimento desde 2003 e nos últimos anos tenho trabalhado com Visual Studio e TFS",
+        "bio": "Leandro Prado é graduado em Sistemas de Informação pela PUC-PR, trabalho com desenvolvimento desde 2003 e nos últimos anos tenho trabalhado com Visual Studio e TFS. Atualmente trabalha como Premier Field Engineer na Microsoft especializado em DevOps e ALM. Fanático por futebol e torcedor do melhor time do paraná – COXA",
+        "tags": [
+            "Visual Studio"
+        ],
+        "socials": [{
+            "name": "Twitter",
+            "icon": "twitter",
+            "link": "https://twitter.com/Blog_Prado"
+        }]
     }
 }
