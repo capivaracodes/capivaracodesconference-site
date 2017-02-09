@@ -86,22 +86,20 @@
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Xamarin"
+            "Bot"
         ]
     },
     "1005": {
         "id": 1005,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Angular JS 2",
+        "description": "Em breve descrição",
         "speakers": [
             6
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Progressive Web Apps",
-            "Front-end",
-            "Ionic"
+            "Angular JS2"
         ]
     },
     "1006": {
@@ -145,22 +143,22 @@
     },
     "1009": {
         "id": 1009,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Firebase",
+        "description": "Em breve descrição",
         "speakers": [
             12
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Android",
+            "Firebase",
             "iOS "
         ]
     },
     "1010": {
         "id": 1010,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": "Machine Learning",
+        "description": "Em breve descrição",
         "speakers": [
             5
         ],
@@ -225,7 +223,7 @@
     },
     "1015": {
         "id": 1015,
-        "title": "Tema a definir ",
+        "title": "IoT",
         "description": "",
         "speakers": [
             11
