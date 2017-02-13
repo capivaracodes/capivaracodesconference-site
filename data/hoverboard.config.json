@@ -51,6 +51,13 @@
                 "fontColor": "#fff",
                 "tabBarColor": "#fff"
             }
+        },
+        "camiseta": {
+            "headerSettings": {
+                "backgroundColor": "#009688",
+                "fontColor": "#fff",
+                "tabBarColor": "#fff"
+            }
         }
     },
     "navigation": [{
@@ -72,6 +79,10 @@
         {
             "route": "faq",
             "permalink": "/faq/"
+        },
+        {
+            "route": "camiseta",
+            "permalink": "/camiseta/"
         }
     ],
     "url": "https://hoverboard.firebaseapp.com/",
