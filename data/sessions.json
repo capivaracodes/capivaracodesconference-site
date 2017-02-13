@@ -91,7 +91,7 @@
     },
     "1005": {
         "id": 1005,
-        "title": "Angular JS 2",
+        "title": "Você não sabia que seu navegador conseguia fazer isso",
         "description": "Em breve descrição",
         "speakers": [
             6
@@ -99,7 +99,7 @@
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Angular JS2"
+            "Web"
         ]
     },
     "1006": {
@@ -143,8 +143,8 @@
     },
     "1009": {
         "id": 1009,
-        "title": "Firebase",
-        "description": "Em breve descrição",
+        "title": "Bibliotecas do Google no iOS: fanboy é a sua vó",
+        "description": "Programar em iOS com Swift é bem bacana e nada de ser fanboy. Tem muita API do Google que pode ser muito bem utilizada para esta plataforma. Nesta palestra exploraremos alguns segredinhos delas, principalmente relacionados ao Firebase.",
         "speakers": [
             12
         ],
@@ -157,8 +157,8 @@
     },
     "1010": {
         "id": 1010,
-        "title": "Machine Learning",
-        "description": "Em breve descrição",
+        "title": "Descobrindo hábitos musicais usando Machine Learning",
+        "description": "Como descobrir e predizer padrões em hábitos musicais utilizando Machine Learning. Keywords: Spotify, Apple Music, Lastfm, Machine Learning, Python e TensorFlow.",
         "speakers": [
             5
         ],
