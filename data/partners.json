@@ -27,6 +27,22 @@
             "name": "iMasters",
             "url": "http://imasters.com.br/",
             "logoUrl": "../images/logos/imasters.png"
+        }, {
+            "name": "Balta.io",
+            "url": "http://balta.io/",
+            "logoUrl": "../images/logos/balta-io.png"
+        }]
+    },
+    {
+        "title": "community-partner",
+        "logos": [{
+            "name": "GDG Curitiba",
+            "url": "http://www.gdgcuritiba.com.br/",
+            "logoUrl": "../images/logos/gdgcuritiba.png"
+        }, {
+            "name": ".NET Curitiba",
+            "url": "https://www.facebook.com/dotnetcuritiba/",
+            "logoUrl": "../images/logos/netcuritiba.png"
         }]
     }
 ]

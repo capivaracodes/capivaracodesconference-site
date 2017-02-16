@@ -223,8 +223,8 @@
     },
     "1015": {
         "id": 1015,
-        "title": "IoT",
-        "description": "",
+        "title": "Como Android Things, Google Home e Firebase vão mudar os conceitos de IoT Internet dos Trem para desenvolvedores ",
+        "description": "A proposta é apresentar as possibilidades de criação de projetos de Internet das Coisas (ou Internet dos Trens se você for de MG) e quais são as possibilidades de integrações rápidas para validação de protótipos.",
         "speakers": [
             11
         ],

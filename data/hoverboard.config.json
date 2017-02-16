@@ -104,6 +104,10 @@
     "footerBlocks": [{
             "title": "for-visitors",
             "links": [{
+                    "text": "buy-ticket",
+                    "url": "https://www.sympla.com.br/capivara-codes-conference__105289",
+                    "newTab": true
+                }, {
                     "text": "team",
                     "url": "/team/"
                 },
