@@ -10,6 +10,10 @@
     {
         "title": "general-partner",
         "logos": [{
+                "name": "Ebanx",
+                "url": "https://www.ebanx.com",
+                "logoUrl": "../images/logos/ebanx.svg"
+            }, {
                 "name": "FESP",
                 "url": "http://www.fesppr.br/portal/",
                 "logoUrl": "../images/logos/fesp.jpg"
