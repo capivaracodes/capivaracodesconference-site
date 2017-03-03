@@ -21,7 +21,12 @@
             {
                 "name": "Radek",
                 "url": "http://www.radek.com.br",
-                "logoUrl": "../images/logos/radek.png"
+                "logoUrl": "../images/logos/radek.svg"
+            },
+            {
+                "name": "Umbler",
+                "url": "https://www.umbler.com/",
+                "logoUrl": "../images/logos/umbler.svg"
             }
         ]
     },
