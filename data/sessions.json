@@ -157,15 +157,15 @@
     },
     "1010": {
         "id": 1010,
-        "title": "Descobrindo hábitos musicais usando Machine Learning",
-        "description": "Como descobrir e predizer padrões em hábitos musicais utilizando Machine Learning. Keywords: Spotify, Apple Music, Lastfm, Machine Learning, Python e TensorFlow.",
+        "title": "Tema a definir",
+        "description": "",
         "speakers": [
             5
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Machine Learning"
+            "Node JS"
         ]
     },
     "1011": {

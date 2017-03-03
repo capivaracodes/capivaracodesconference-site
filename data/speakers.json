@@ -141,36 +141,43 @@
     "5": {
         "id": 5,
         "featured": true,
-        "name": "Maria Clara Santana",
-        "title": "Embaixadora do Technovation Challenge",
+        "name": " Matheus Costa Vieira",
+        "title": " Analista de Sistemas",
+        "company": "CINQ Technologies",
+        "companyLogo": "/images/logos/cinq.png",
         "country": "Curitiba, Brasil",
-        "photoUrl": "/images/people/maria.jpg",
-        "shortBio": "Embaixadora @ Technovation Challenge e Host @ Google CS First CWB. Apaixonada por web e entusiasta de Machine Learning.",
-        "bio": "Embaixadora do Technovation Challenge e Host do Google Computer Science First em Curitiba. Já atuou em diversas startups no Brasil e fora dele. Apaixonada pela web e entusiasta de Machine Learning, área que atuou como junior researcher durante a graduação. ",
+        "photoUrl": "/images/people/matheus_costa.jpg",
+        "shortBio": "Programador e Professor. Amo a Deus, minha esposa, meu filho e criar programas! Gosto de codificar com muito café e muito metal",
+        "bio": "Casado com a Daniela e pai do Pedro Henrique. Bacharel em Sistemas de Informação pela Universidade Positivo, pós-graduado em Engenharia E Aarquitetura DE Software pela Universidade Estácio de Sá, pós-graduando em Sistemas Embarcados e Internet das Coisas pela Univerdade Positivo. Mais de 9 anos de experiência com desenvolvimento de software com passagem em diversos tipos de projetos (e-commerce, rastreamento de veículos, ERP, sistemas de mensagens de aviação comercial). Trabalho com desenvolvimento Web, Desktop e Mobile. Esse semestre inicei na carreira de docência lecionando as disciplinas de Desenvolvimento Web e Programação Visual na Faculdade Opet",
         "tags": [
-            "Machine Learning",
-            "Front-end"
+            "Node JS",
+            "Testes"
         ],
         "badges": [],
         "socials": [{
                 "icon": "twitter",
                 "name": "Twitter",
-                "link": "https://www.twitter.com/olarclara"
+                "link": "https://twitter.com/macostavieira"
             },
             {
                 "icon": "github",
                 "name": "GitHub",
-                "link": "http://www.github.com/clarasantana"
+                "link": "https://github.com/matheus-vieira"
             },
             {
-                "icon": "medium",
-                "name": "Medium",
-                "link": "https://www.medium.com/@mariaclarasantana"
+                "icon": "facebook",
+                "name": "Facebook",
+                "link": "https://facebook.com/macovieiraa"
             },
             {
-                "icon": "website",
-                "name": "WebSite",
-                "link": "https://clarasantana.github.io/mariaclarasantana.github.io/"
+                "icon": "linkedin",
+                "name": "Linkedin",
+                "link": "https://linkedin.com/in/macostavieira"
+            },
+            {
+                "icon": "gplus",
+                "name": "Google Plus",
+                "link": "https://plus.google.com/+MatheusCostaVieira"
             }
         ]
     },
