@@ -155,15 +155,6 @@
     "tickets": {
         "url": "https://www.sympla.com.br/capivara-codes-conference__105289",
         "elements": [{
-                "name": "early-ticket",
-                "price": 60,
-                "currency": "R$",
-                "starts": "early-ticket-starts",
-                "ends": "early-ticket-ends",
-                "info": "early-ticket-info",
-                "soldOut": false
-            },
-            {
                 "name": "lazy-ticket",
                 "price": 80,
                 "currency": "R$",
