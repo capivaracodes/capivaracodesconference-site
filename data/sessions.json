@@ -210,15 +210,15 @@
     },
     "1014": {
         "id": 1014,
-        "title": "Tema a definir ",
-        "description": "",
+        "title": " NoSql, No Problem. Really!",
+        "description": "Flexibilidade, escalabilidade, armazenamento de dados de alto desempenho e integração são requisitos de boas apps. Nesta sessão, vamos falar um pouco sobre NodeJS, DocumentDB e outras APIs interessantes para você começar sua aplicação hoje.",
         "speakers": [
             3
         ],
         "language": "Português",
         "complexity": "Basico",
         "tags": [
-            "Cloud"
+            "Node JS"
         ]
     },
     "1015": {
