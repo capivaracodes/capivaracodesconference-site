@@ -155,22 +155,13 @@
     "tickets": {
         "url": "https://www.sympla.com.br/capivara-codes-conference__105289",
         "elements": [{
-                "name": "lazy-ticket",
-                "price": 80,
-                "currency": "R$",
-                "starts": "lazy-ticket-starts",
-                "ends": "lazy-ticket-ends",
-                "soldOut": false
-            },
-            {
-                "name": "lazy-bird-ticket",
-                "price": 120,
-                "currency": "R$",
-                "starts": "lazy-bird-ticket-starts",
-                "ends": "lazy-bird-ticket-ends",
-                "soldOut": false
-            }
-        ]
+            "name": "lazy-bird-ticket",
+            "price": 120,
+            "currency": "R$",
+            "starts": "lazy-bird-ticket-starts",
+            "ends": "lazy-bird-ticket-ends",
+            "soldOut": false
+        }]
     },
     "teamPageTitle": "team-page-title",
     "teamPageText": "team-page-text",
