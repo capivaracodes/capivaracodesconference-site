@@ -23,6 +23,11 @@
                 "url": "http://www.radek.com.br",
                 "logoUrl": "../images/logos/radek.svg"
             },
+          {
+            "name": "Microsoft",
+            "url": "http://www.microsoft.com.br",
+            "logoUrl": "../images/logos/microsoft.jpg"
+          },
             {
                 "name": "Umbler",
                 "url": "https://www.umbler.com/",
