@@ -45,6 +45,10 @@
             "name": "Balta.io",
             "url": "http://balta.io/",
             "logoUrl": "../images/logos/balta-io.png"
+        }, {
+          "name": "Azuris",
+          "url": "http://www.azuris.com.br",
+          "logoUrl": "../images/logos/azuris.png"
         }]
     },
     {
