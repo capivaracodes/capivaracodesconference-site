@@ -61,6 +61,10 @@
             "name": ".NET Curitiba",
             "url": "http://dotnetcuritiba.com.br",
             "logoUrl": "../images/logos/netcuritiba.png"
+        }, {
+          "name": "DevParaná",
+          "url": "http://www.devparana.org/",
+          "logoUrl": "../images/logos/devpr.png"
         }]
     }
 ]
